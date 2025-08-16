@@ -1,0 +1,37 @@
+# Flask web framework
+Flask>=2.0.0,<3.0.0
+
+# PyTorch for deep learning (Wav2Lip) - CPU version for better compatibility
+torch>=1.13.0
+torchvision>=0.14.0
+torchaudio>=0.13.0
+
+# Text-to-speech
+edge-tts>=6.0.0
+
+# Sentiment analysis
+vaderSentiment>=3.3.0
+
+# Web search functionality
+duckduckgo-search>=4.0.0
+
+# Environment variables
+python-dotenv>=0.19.0
+
+# HTTP requests
+requests>=2.25.0
+
+# File handling and utilities
+Werkzeug>=2.0.0
+
+# AI/LLM client (Groq)
+groq>=0.3.0
+
+# Additional utilities
+urllib3>=1.26.0
+
+# Alternative packages for better compatibility
+# If PyTorch fails, try these alternatives:
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+# or
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118 
